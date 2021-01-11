@@ -34,6 +34,8 @@ dependencies {
     implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     implementation("no.tornado:tornadofx:1.7.20")
+    implementation("com.github.kittinunf.fuel:fuel:2.3.0")
+    implementation("com.github.kittinunf.fuel:fuel-coroutines:2.3.0")
 
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
